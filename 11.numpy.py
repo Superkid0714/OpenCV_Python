@@ -3,8 +3,8 @@ import numpy as np
 np.random.seed(10)  # 랜던 값의 시드 설정
 a = np.random.rand(2,3)
 b = np.random.randn(3,2)
-c = np.random.randn(3,2)
-d = np.random.rand(6)
+c = np.random.rand(6)
+d = np.random.randint(1,100,6)
 c = np.reshape(c,(2,3))
 d = d.reshape(2,-1)
 
